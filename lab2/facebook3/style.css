@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(235, 235, 235);
+}
+.container{
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.leftpart{
+    width: 40%;
+}
+h1{
+    color: royalblue;
+    font-size: 80px;
+}
+h3{
+    color: black;
+    font-size: 20px;
+}
+.rightpart{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.loginpage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    width: 450px;
+    height: 370px;
+    box-shadow: -10px -10px 15px rgb(0,0,0,0.1),
+    10px 10px 15px rgb(0,0,0,0.1);
+    border-radius: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0px;
+}
+input{
+    width: 380px;
+    height: 50px;
+    margin: 10px 0px;
+    padding: 0px 10px;
+    outline: none;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    border-radius: 10px;
+
+}
+input[type="submit"]{
+    background-color: royalblue;
+    color: white;
+}
+p{
+    color: royalblue;
+}
+hr{
+    border: 1px solid #ccc;
+    width: 320px;
+    margin: 20px 0px;
+}
+.createaccount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: green;
+    width: 250px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 30px;
+    color: white;
+    border-radius: 10px;
+
+}
+span{
+    margin: 20px 0px;
+    font-size: 18px;
+    font-weight: 20px;
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    padding: 0;
+    flex-wrap: wrap;
+    font-size: 13px;
+    font-family: 'SFProDisplay-Regular', Helvetica, Arial, sans-serif;
+    line-height: 0.4; /* Reduced gap between lines */
+    color: rgb(157, 157, 157);
+}
+
+
+#languages {
+    padding-top: 15px;
+}
+
+a:link,
+a:visited {
+    color: rgb(157, 157, 157);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    background-color: rgb(248, 248, 181);
+    text-decoration: underline;
+}
+
+#line2 {
+    width: 100%;
+    border-bottom: 1px solid rgb(173, 173, 173);
+    margin: 10px 0; /* Smaller gap between sections */
+}
+
+#meta2025 {
+    padding-top: 20px;
+    color: rgb(124, 124, 124);
+    font-size: 12px;
+    text-align: left; /* Align to the left */
+}
+#links {
+    margin-top: 20px; /* Adjust this value to increase the gap */
+}
+#footer-wrapper {
+    position: relative; /* Allows movement of the entire wrapper */
+    top: 170px; /* Moves the entire wrapper (including footer) down */
+    background-color: white; /* Keeps the background color spanning full width */
+    width: 100%; /* Ensures the background spans the entire width of the page */
+    padding: 30px 0;
+}
+
+#footer {
+    width: 980px; /* Keeps the footer content width fixed */
+    margin: 0 auto; /* Centers the footer content horizontally */
+    text-align: center; /* Ensures text alignment */
+}
